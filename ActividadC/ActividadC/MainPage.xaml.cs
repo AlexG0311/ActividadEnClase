@@ -19,6 +19,11 @@
         
         {
             this.BackgroundColor = Colors.LightBlue;
+
+        }
+        private void OnNewButtonClicked(object sender, EventArgs e)
+        {
+            DisplayAlert("New Button", "This button was added by a collaborator!", "OK");
         }
         private async void OnOpenWebsiteButtonClicked(object sender, EventArgs e)
         {

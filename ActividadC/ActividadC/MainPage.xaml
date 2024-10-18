@@ -26,6 +26,10 @@
                     Clicked="OnOpenWebsiteButtonClicked"
                     HorizontalOptions="Center"
                     VerticalOptions="CenterAndExpand"/>
+            <Button Text="Precioname" 
+                Clicked="OnNewButtonClicked" 
+                HorizontalOptions="Center" 
+                VerticalOptions="CenterAndExpand"/>
         </VerticalStackLayout>
     </ScrollView>
 
