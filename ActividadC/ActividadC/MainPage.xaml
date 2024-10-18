@@ -22,6 +22,10 @@
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand"/>
 
+            <Button Text="Abrir YouTube"
+                    Clicked="OnOpenWebsiteButtonClicked"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"/>
         </VerticalStackLayout>
     </ScrollView>
 

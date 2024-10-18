@@ -8,7 +8,6 @@
         public MainPage()
         {
             InitializeComponent();
-        }
 
         // Funcionalidad del botón
         private void OnButtonClicked(object sender, EventArgs e)
@@ -21,7 +20,13 @@
         {
             this.BackgroundColor = Colors.LightBlue;
         }
+        private async void OnOpenWebsiteButtonClicked(object sender, EventArgs e)
+        {
+            var uri = new Uri("https://www.youtube.com/");
+            await Launcher.Default.OpenAsync(uri);
+        }
 
     }
 
+}
 }
