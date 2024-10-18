@@ -16,6 +16,12 @@
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 Clicked="OnButtonClicked"/>
+
+            <Button Text="Cambiarr Color"
+            Clicked="OnChangeColorButtonClicked"
+            HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"/>
+
         </VerticalStackLayout>
     </ScrollView>
 
