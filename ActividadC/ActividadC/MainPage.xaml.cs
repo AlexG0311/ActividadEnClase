@@ -28,7 +28,7 @@
         }
         private async void OnOpenWebsiteButtonClicked(object sender, EventArgs e)
         {
-            var uri = new Uri("https://example.com/");
+            var uri = new Uri("https://youtube.com/");
             await Launcher.Default.OpenAsync(uri);
         }
 
